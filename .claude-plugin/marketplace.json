@@ -1,5 +1,9 @@
 {
   "name": "codespec-marketplace",
+  "owner": {
+    "name": "Luciv Huang",
+    "email": "784863142@qq.com"
+  },
   "plugins": [
     {
       "name": "codespec",
