@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="300" height="100">
+  <defs>
+    <!-- 多色渐变：蓝 -> 紫 -> 青 -->
+    <linearGradient id="colorfulGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A6CF7"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 左侧图标 -->
+  <g transform="translate(15, 10) scale(0.5)">
+    <!-- 左尖括号 -->
+    <polyline
+      points="22,18 52,60 22,102"
+      fill="none"
+      stroke="url(#colorfulGradient)"
+      stroke-width="4.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <!-- 右尖括号 -->
+    <polyline
+      points="98,18 68,60 98,102"
+      fill="none"
+      stroke="url(#colorfulGradient)"
+      stroke-width="4.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <!-- 三条横线 - 代表规范文档层次 -->
+    <!-- 上线 -->
+    <line
+      x1="44" y1="40"
+      x2="76" y2="40"
+      stroke="url(#colorfulGradient)"
+      stroke-width="3.5"
+      stroke-linecap="round"
+    />
+    <!-- 中线（更长） -->
+    <line
+      x1="40" y1="60"
+      x2="80" y2="60"
+      stroke="url(#colorfulGradient)"
+      stroke-width="3.5"
+      stroke-linecap="round"
+    />
+    <!-- 下线 -->
+    <line
+      x1="44" y1="80"
+      x2="76" y2="80"
+      stroke="url(#colorfulGradient)"
+      stroke-width="3.5"
+      stroke-linecap="round"
+    />
+  </g>
+
+  <!-- 右侧文字 -->
+  <text
+    x="85"
+    y="52"
+    font-family="'Segoe UI', 'Inter', system-ui, sans-serif"
+    font-weight="700"
+    font-size="28"
+    fill="url(#colorfulGradient)"
+    letter-spacing="1"
+  >CodeSpec</text>
+</svg>
