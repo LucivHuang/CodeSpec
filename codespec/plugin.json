@@ -1,8 +1,7 @@
 {
-  "name": "CodeSpec",
+  "name": "codespec",
   "description": "A Spec-Driven Development (SDD), tech-stack-agnostic, resumable, extensible, semi-automated AI workflow orchestration plugin covering the full journey from requirement specifications to code delivery.",
   "version": "1.0.0",
-  "author": {
-    "name": "Luciv Huang"
-  }
+  "commands": "./commands",
+  "author": "Luciv Huang"
 }

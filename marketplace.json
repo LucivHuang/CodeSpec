@@ -1,0 +1,9 @@
+{
+  "name": "codespec-marketplace",
+  "plugins": [
+    {
+      "name": "codespec",
+      "source": "./codespec"
+    }
+  ]
+}

@@ -36,8 +36,11 @@
 ## 快速开始
 
 ```bash
-# 安装
-claude plugin install <path-or-url-to-codespec>
+# 添加插件市场
+/plugin marketplace add codespec-marketplace LucivHuang/CodeSpec
+
+# 安装插件：
+/plugin install codespec@codespec-marketplace
 
 # 运行（首次会自动引导项目初始化）
 /codespec:workflow 新增用户个人资料页面功能

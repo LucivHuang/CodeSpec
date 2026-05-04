@@ -1,6 +1,6 @@
 # CodeSpec
 
-[中文](./README.zh-CN.md) | English
+[中文](./README.md) | English
 
 > A Spec-Driven Development (SDD), tech-stack-agnostic, resumable, extensible, semi-automated AI workflow orchestration plugin covering the full journey from requirement specifications to code delivery.
 
@@ -36,8 +36,9 @@
 ## Quick Start
 
 ```bash
-# Installation
-claude plugin install <path-or-url-to-codespec>
+/plugin marketplace add codespec-marketplace LucivHuang/CodeSpec
+
+/plugin install codespec@codespec-marketplace
 
 # Run (first time will auto-guide project initialization)
 /codespec:workflow Add user profile page feature

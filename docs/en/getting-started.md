@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-claude plugin install <path-or-url-to-codespec>
+claude plugin install https://github.com/LucivHuang/CodeSpec.git
 ```
 
 ## Prerequisites
