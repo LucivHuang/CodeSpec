@@ -36,7 +36,7 @@
 ## Quick Start
 
 ```bash
-/plugin marketplace add codespec-marketplace LucivHuang/CodeSpec
+/plugin marketplace add https://github.com/LucivHuang/CodeSpec.git
 
 /plugin install codespec@codespec-marketplace
 

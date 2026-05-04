@@ -37,7 +37,7 @@
 
 ```bash
 # 添加插件市场
-/plugin marketplace add codespec-marketplace LucivHuang/CodeSpec
+/plugin marketplace add https://github.com/LucivHuang/CodeSpec.git
 
 # 安装插件：
 /plugin install codespec@codespec-marketplace

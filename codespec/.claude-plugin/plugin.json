@@ -2,6 +2,9 @@
   "name": "codespec",
   "description": "A Spec-Driven Development (SDD), tech-stack-agnostic, resumable, extensible, semi-automated AI workflow orchestration plugin covering the full journey from requirement specifications to code delivery.",
   "version": "1.0.0",
-  "commands": "./commands",
-  "author": "Luciv Huang"
+  "commands": "../commands",
+  "author": {
+    "name": "Luciv Huang",
+    "email": "784863142@qq.com"
+  }
 }

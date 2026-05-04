@@ -3,7 +3,7 @@
   "plugins": [
     {
       "name": "codespec",
-      "source": "./codespec"
+      "source": "../codespec"
     }
   ]
 }
